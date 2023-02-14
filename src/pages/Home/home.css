@@ -1,0 +1,76 @@
+
+.Home {
+    padding: 0px 300px;
+  }
+  
+  .grid {
+  
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 15px;
+        grid-row-gap: 10px;
+        
+  }
+
+.Img-Box {
+    position: relative;
+}
+
+.grid_img {
+
+}
+
+.absolute {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+}
+
+.zindex {
+    width: 100%;
+    
+}
+
+.save-icons {
+    display: none !important;
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    color: #fff;
+    font-size: 25px;
+    top: 10px;
+    transition: 0.4;
+    right: 20px;
+}
+
+.fa-regular {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.267);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.info-down {
+    display: none !important;
+    position: absolute;
+    display: flex;  
+    justify-content: space-between;
+    bottom: 0;
+    color: #fff;
+    font-size: 25px;
+    transition: 0.4;
+}
+
+.save-icons{}
+
+
+.Img-Box:hover .save-icons {
+    display: flex !important;
+}
+.Img-Box:hover .info-down {
+    display: flex !important;
+}
